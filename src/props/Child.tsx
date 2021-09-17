@@ -1,6 +1,6 @@
 interface ChildProps {
   color: String;
-  onclick: () => void;
+  onclick: () => void; //return type is void
 }
 
 export const Child = ({ color, onclick }: ChildProps) => {
